@@ -1,0 +1,62 @@
+{
+  "README.md": {
+    "mtime": 1792212332.1595085,
+    "seen": 1792217599.1843085,
+    "ast_hash": "e4a5f68452dab54257aa5813a11a3979",
+    "semantic_hash": "e4a5f68452dab54257aa5813a11a3979"
+  },
+  "requirements.txt": {
+    "mtime": 1792212496.2449656,
+    "seen": 1792217599.1843114,
+    "ast_hash": "6fefc613ac26592aa6bcd3a8d02cb343",
+    "semantic_hash": "6fefc613ac26592aa6bcd3a8d02cb343"
+  },
+  "app.py": {
+    "mtime": 1792220186.2225897,
+    "seen": 1792220214.7949178,
+    "ast_hash": "04f6476e3d6e96e64f96e80fae4172e4",
+    "semantic_hash": "04f6476e3d6e96e64f96e80fae4172e4"
+  },
+  "data/create_sample_data.py": {
+    "mtime": 1792219896.5306416,
+    "seen": 1792220214.794921,
+    "ast_hash": "853d3f6b2cfc3c999418e40cf5029df7",
+    "semantic_hash": "853d3f6b2cfc3c999418e40cf5029df7"
+  },
+  "modules/__init__.py": {
+    "mtime": 1792219843.8018496,
+    "seen": 1792220214.7949219,
+    "ast_hash": "78d88c07c34c58377eed1d3b7bc316cc",
+    "semantic_hash": "78d88c07c34c58377eed1d3b7bc316cc"
+  },
+  "modules/gemma_agent.py": {
+    "mtime": 1792220087.7803905,
+    "seen": 1792220214.794923,
+    "ast_hash": "bdfc623ff1db82f1a613252faeef3b71",
+    "semantic_hash": "bdfc623ff1db82f1a613252faeef3b71"
+  },
+  "modules/ingestor.py": {
+    "mtime": 1792220034.173022,
+    "seen": 1792220214.794924,
+    "ast_hash": "3a88a53010c24f0f1dd7fca86db14912",
+    "semantic_hash": "3a88a53010c24f0f1dd7fca86db14912"
+  },
+  "modules/search_engine.py": {
+    "mtime": 1792220045.8608825,
+    "seen": 1792220214.794926,
+    "ast_hash": "7b5791e86e12bc0a046c721154d740bb",
+    "semantic_hash": "7b5791e86e12bc0a046c721154d740bb"
+  },
+  "tests/test_agent.py": {
+    "mtime": 1792220096.632288,
+    "seen": 1792220214.7949266,
+    "ast_hash": "93f04eb3a223b374013b373d78c520ec",
+    "semantic_hash": "93f04eb3a223b374013b373d78c520ec"
+  },
+  "tests/test_ingestor.py": {
+    "mtime": 1792220020.197197,
+    "seen": 1792220214.7949278,
+    "ast_hash": "ff42a6615eb523e73bbd5edc06a75245",
+    "semantic_hash": "ff42a6615eb523e73bbd5edc06a75245"
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "communities": {
+    "0": [
+      "generativemodel",
+      "modules_gemma_agent_rationale_114",
+      "modules_gemma_agent_rationale_144",
+      "modules_gemma_agent_rationale_232",
+      "modules_gemma_agent_rationale_272",
+      "modules_gemma_agent_rationale_28",
+      "modules_gemma_agent_rationale_34",
+      "modules_gemma_agent_rationale_53",
+      "modules_gemma_agent_rationale_57",
+      "modules_gemma_agent_rationale_65",
+      "modules_gemma_agent_rationale_70",
+      "modules_gemma_agent_studycareeragent",
+      "modules_gemma_agent_studycareeragent_call_llm",
+      "modules_gemma_agent_studycareeragent_generate_career_roadmap",
+      "modules_gemma_agent_studycareeragent_generate_cheat_sheet",
+      "modules_gemma_agent_studycareeragent_generate_flashcards",
+      "modules_gemma_agent_studycareeragent_generate_project_guide",
+      "modules_gemma_agent_studycareeragent_get_model",
+      "modules_gemma_agent_studycareeragent_init",
+      "modules_gemma_agent_studycareeragent_is_configured",
+      "modules_gemma_agent_studycareeragent_set_api_key",
+      "tests_test_agent_test_agent_initialization"
+    ],
+    "1": [
+      "bytesio",
+      "modules_ingestor_documentingestor",
+      "modules_ingestor_documentingestor_ingest_file",
+      "modules_ingestor_documentingestor_parse_docx",
+      "modules_ingestor_documentingestor_parse_pdf",
+      "modules_ingestor_documentingestor_parse_pptx",
+      "modules_ingestor_documentingestor_read_bytes",
+      "modules_ingestor_documentresult",
+      "modules_ingestor_py_any",
+      "modules_ingestor_rationale_121",
+      "modules_ingestor_rationale_20",
+      "modules_ingestor_rationale_200",
+      "modules_ingestor_rationale_278",
+      "modules_ingestor_rationale_29",
+      "modules_ingestor_rationale_33",
+      "modules_ingestor_rationale_49",
+      "tests_test_ingestor_test_ingestion"
+    ],
+    "2": [
+      "data_create_sample_data",
+      "data_create_sample_data_create_sample_docx",
+      "data_create_sample_data_create_sample_pdf",
+      "data_create_sample_data_create_sample_pptx",
+      "data_create_sample_data_rationale_1",
+      "data_create_sample_data_rationale_107",
+      "data_create_sample_data_rationale_12",
+      "data_create_sample_data_rationale_57",
+      "docx",
+      "fitz",
+      "pptx",
+      "pptx_util"
+    ],
+    "3": [
+      "modules_gemma_agent_py_any",
+      "modules_gemma_agent_rationale_313",
+      "modules_gemma_agent_studycareeragent_answer_tutor_query",
+      "modules_search_engine_rationale_22",
+      "modules_search_engine_rationale_26",
+      "modules_search_engine_rationale_31",
+      "modules_search_engine_rationale_71",
+      "modules_search_engine_websearchengine",
+      "modules_search_engine_websearchengine_format_for_llm",
+      "modules_search_engine_websearchengine_is_available",
+      "modules_search_engine_websearchengine_search",
+      "tests_test_agent_test_search_engine"
+    ],
+    "4": [
+      "readme_repository",
+      "requirements_google_generativeai",
+      "requirements_graphifyy",
+      "requirements_networkx",
+      "requirements_pymupdf",
+      "requirements_python_dotenv",
+      "requirements_python_pptx",
+      "requirements_streamlit"
+    ],
+    "5": [
+      "app",
+      "app_get_agent",
+      "app_get_all_notes_text",
+      "app_rationale_1",
+      "cache_resource",
+      "streamlit",
+      "time"
+    ],
+    "6": [
+      "csv",
+      "dotenv",
+      "google_generativeai",
+      "json",
+      "modules_gemma_agent",
+      "modules_gemma_agent_rationale_1"
+    ],
+    "7": [
+      "dataclasses",
+      "io",
+      "modules_ingestor",
+      "modules_ingestor_rationale_1",
+      "pymupdf",
+      "re"
+    ],
+    "8": [
+      "ddgs",
+      "duckduckgo_search",
+      "logging",
+      "modules_search_engine",
+      "modules_search_engine_rationale_1",
+      "typing"
+    ],
+    "9": [
+      "os",
+      "sys",
+      "tests_test_agent",
+      "tests_test_agent_rationale_1",
+      "tests_test_ingestor"
+    ],
+    "10": [
+      "modules_init",
+      "modules_init_rationale_1"
+    ]
+  },
+  "cohesion": {
+    "0": 0.12121212121212122,
+    "1": 0.25,
+    "2": 0.19696969696969696,
+    "3": 0.22727272727272727,
+    "4": 0.25,
+    "5": 0.2857142857142857,
+    "6": 0.3333333333333333,
+    "7": 0.3333333333333333,
+    "8": 0.3333333333333333,
+    "9": 0.5,
+    "10": 1.0
+  },
+  "gods": [
+    {
+      "id": "modules_gemma_agent_studycareeragent",
+      "label": "StudyCareerAgent",
+      "degree": 17
+    },
+    {
+      "id": "modules_ingestor_documentingestor",
+      "label": "DocumentIngestor",
+      "degree": 10
+    },
+    {
+      "id": "modules_search_engine_websearchengine",
+      "label": "WebSearchEngine",
+      "degree": 10
+    },
+    {
+      "id": "readme_repository",
+      "label": "Repository",
+      "degree": 7
+    },
+    {
+      "id": "modules_ingestor_documentresult",
+      "label": "DocumentResult",
+      "degree": 7
+    },
+    {
+      "id": "tests_test_agent_test_search_engine",
+      "label": "test_search_engine()",
+      "degree": 4
+    },
+    {
+      "id": "tests_test_agent_test_agent_initialization",
+      "label": "test_agent_initialization()",
+      "degree": 4
+    },
+    {
+      "id": "app_get_agent",
+      "label": "get_agent()",
+      "degree": 3
+    },
+    {
+      "id": "data_create_sample_data_create_sample_docx",
+      "label": "create_sample_docx()",
+      "degree": 3
+    },
+    {
+      "id": "data_create_sample_data_create_sample_pdf",
+      "label": "create_sample_pdf()",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "get_agent()",
+      "target": "StudyCareerAgent",
+      "source_files": [
+        "app.py",
+        "modules/gemma_agent.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "test_ingestion()",
+      "target": "DocumentIngestor",
+      "source_files": [
+        "tests/test_ingestor.py",
+        "modules/ingestor.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "test_search_engine()",
+      "target": "WebSearchEngine",
+      "source_files": [
+        "tests/test_agent.py",
+        "modules/search_engine.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "Repository",
+      "target": "google-generativeai",
+      "source_files": [
+        "README.md",
+        "requirements.txt"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; peripheral node `google-generativeai` unexpectedly reaches hub `Repository`"
+    },
+    {
+      "source": "Repository",
+      "target": "graphifyy",
+      "source_files": [
+        "README.md",
+        "requirements.txt"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; peripheral node `graphifyy` unexpectedly reaches hub `Repository`"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}
